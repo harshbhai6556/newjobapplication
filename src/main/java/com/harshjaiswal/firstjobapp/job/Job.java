@@ -1,12 +1,13 @@
 package com.harshjaiswal.firstjobapp.job;
 
 public class Job {
-    private long id;
+    private Long id;
     private String title;
     private String description;
     private String minSalary;
     private String maxSalary;
     private String location;
+
 
     public Job(long id, String title, String description, String minSalary, String maxSalary, String location) {
         this.id = id;
